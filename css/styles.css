@@ -1,3 +1,188 @@
-img {
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color:#444444;
+    font-weight:400;
+}
+
+section {
+    box-sizing: border-box;
+    padding:35px;
+}
+
+.container {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform:uppercase;
+    color: #2B8FAF;
+    font-size:40px;
+    font-weight:400;
+    margin-bottom: 30px;
+}
+
+h1:after {
+    content:"";
+    display:block;
+    width:70px;
+    padding-top:5px;
+    border-bottom:4px solid #2B8FAF;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight:300;
+    font-size: 25px;
+    margin:10px 0 5px 0;
+}
+
+h3 {
+    font-weight: 400;;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height:1.4;
+    font-size:15px;
+}
+
+button {
+    background: #2B8FAF;
+    border-radius:4px;
+    border:none;
+    padding:10px 15px;
+    color: #fff;
+    font-weight:300;
+    margin: 10px 0 60px 0;
+}
+
+#home {
+    height: 100vh;
+    background-image:url("../img/halftone.png");
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo img {
+    width:55px;
+}
+
+nav a {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size:16px;
+    text-decoration:none;
+    padding-left:10px;
+    letter-spacing:1px;
+    font-weight:300;
+}
+
+.introduction {
+    margin-top: 50px;
+    padding: 30px 0;
+
+}
+
+.introduction h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-weight:300;
+    font-size:32px;
+    margin-top:0;
+}
+
+.introduction h1:after {
+    display:none;
+}
+
+.introduction h2 { 
+    margin:0 0 5px 0;
+    color: #fff;
+}
+
+.introduction p {
+    color: #fff;
+    font-weight:300;
+}
+
+.project {
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+.project img {
     width:100%;
+}
+
+.description h3 {
+    color: #2B8FAF;
+}
+
+#about {
+    background: url(../img/hockey-blurred.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+#about .container {
+    margin-bottom:30px;
+}
+
+#about p {
+    color: #fff;
+    font-weight:300;
+}
+
+#about h2 {
+    color: #fff;
+    margin: 10px 0 5px 0;
+}
+
+.hobby {
+    margin: 40px 0 0 0;
+}
+
+.hobby img {
+    width:40px;
+}
+
+#experience img {
+    width:60px;
+}
+
+.job {
+    margin: 0 0 40px 0;
+}
+
+.job h3 {
+    font-size:15px;
+    font-weight:bold;
+}
+
+footer {
+    background:#F4F4F4;
+    padding:30px;
+}
+
+footer p {
+    margin: 0;
+    font-size:13px;
+    margin-top: 10px;
+}
+
+.svg-inline--fa {
+    padding: 0 6px 0 0;
 }
