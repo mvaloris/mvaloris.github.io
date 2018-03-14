@@ -89,7 +89,7 @@ nav a {
 
 .introduction {
     margin-top: 50px;
-    padding: 30px 0;
+    padding: 0;
 
 }
 
@@ -113,6 +113,12 @@ nav a {
 .introduction p {
     color: #fff;
     font-weight:300;
+}
+
+.hockey-graphic {
+    height: 325px;
+    position:absolute;
+    right:0;
 }
 
 .project {
