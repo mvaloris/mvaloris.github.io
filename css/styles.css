@@ -119,6 +119,7 @@ nav a {
     height: 325px;
     position:absolute;
     right:0;
+    bottom:0;
 }
 
 .project {
@@ -135,7 +136,7 @@ nav a {
 }
 
 #about {
-    background: url(../img/hockey-blurred.png) no-repeat center center fixed; 
+    background: url(../img/water-abstract-photo.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
